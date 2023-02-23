@@ -18,7 +18,8 @@ public Tombsug() {
         double alpha = Double.parseDouble(scanner.nextLine());
         scanner.close();
 
-        double radius =Rhombus.calcRadius(side, alpha);
+        Rhombus rhombus= new Rhombus();
+        double radius =rhombus.calcRadius(side, alpha);
         System.out.println("Sugar:"+radius);
     
     
